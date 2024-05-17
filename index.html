@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="bg-white">
+        <nav class="navbar navbar-expand-lg header p-0">
+            <div class="container p-1">
+                <!-- <a class="navbar-brand fs-1 fw-bold text-dark" href="#">Cowork</a> -->
+                <img src="./img/Logo (6).svg" alt="logo">
+                <button class="btn btn-dark navbar-toggler rounded-pill" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <div class="container" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse menu" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link menu-list" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-list">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-list">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-list">Events</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-white rounded-pill border border-1">
+                        Log In
+                    </button>
+                    <button type="button" class="btn btn-dark rounded-pill">
+                        Sign Up
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container mt-5">
+        <div class="row g-5">
+            <div class="col-md-6 mt-5 lh-sm">
+                <h1 class="head-line card-title fw-bold mt-5 text-dark">
+                    Elevate Your Workspace with Cowork
+                </h1>
+                <p class="text">
+                    Welcome to Cowork – where innovation meets collaboration in the
+                    heart of productivity! Unleash 🚀 your potential in our thoughtfully
+                    designed coworking spaces, tailored to inspire creativity and foster
+                    connections.
+                </p>
+                <button type="button" class="btn btn-dark rounded-pill">
+                    Claim your spot
+                </button>
+            </div>
+            <div class="content col-md-6 mt-5">
+                <img src="./img/Image.svg" class="img-fluid rounded-start" alt="..." />
+            </div>
+        </div>
+    </section>
+    <section class="mt-5">
+        <div class="text-center">
+            <div>Trusted by Leading Companies</div>
+            <div class="text-center m-5">
+                <img src="./img/Logo (1).svg" class="m-4" alt="" />
+                <img src="./img/Logo (2).svg" class="m-4" alt="" />
+                <img src="./img/Logo (3).svg" class="m-4" alt="" />
+                <img src="./img/Logo (4).svg" class="m-4" alt="" />
+                <img src="./img/Logo (5).svg" class="m-4" alt="" />
+            </div>
+        </div>
+    </section>
+    <section class="container mt-5">
+        <div class="text-center fs-1 fw-bold">
+            <h1>
+                Why Choose
+                <img src="./img/Rectangle 1.svg" alt="board" /> Cowork?
+            </h1>
+        </div>
+        <div class="card-group mt-5">
+            <div class="card text-center border border-white mt-5">
+                <img src="./img/Planet.svg" class="img" alt="planet" />
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Flexible Spaces</h5>
+                    <p class="card-text">
+                        Whether you're a solopreneur, startup, or an established
+                        enterprise, our flexible office solutions cater to your evolving
+                        needs.
+                    </p>
+                </div>
+            </div>
+            <div class="card text-center border border-white mt-5">
+                <img src="./img/CreditCard.svg" class="img" alt="credit-card" />
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Transparent Pricing</h5>
+                    <p class="card-text">
+                        Choose a plan that suits your budget and business objectives, and
+                        experience the value of a premium coworking space without breaking
+                        the bank.
+                    </p>
+                </div>
+            </div>
+            <div class="card text-center border border-white mt-5">
+                <img src="./img/UserList.svg" class="img" alt="UserList" />
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Tailored Memberships</h5>
+                    <p class="card-text">
+                        Whether you prefer the flexibility of a hot desk or the
+                        exclusivity of a private office, Cowork offers tailored solutions
+                        to suit every working style.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container w-50 lh-lg text-center mt-5">
+        <div class="text-center mt-5">
+            <sub>A Virtual Tour</sub>
+            <h1 class="fw-bold mt-5">
+                Explore Cowork Through Our
+                <img src="./img/Rectangle 1 (1).svg" alt="" />
+                Lens
+            </h1>
+            <p class="text-center fs-6 fw-light mt-5">
+                Experience the essence of Cowork before setting foot in our dynamic
+                spaces. Our immersive video tour gives you a sneak peek into the
+                vibrant atmosphere, cutting-edge facilities, and collaborative energy
+                that define the Cowork experience.
+            </p>
+            <button class="btn btn-outline-secondary rounded-pill fw-bold text-dark mt-5" type="submit">
+                Explore Spaces
+            </button>
+        </div>
+    </section>
+    <section class="container w-100 mt-5">
+        <div class="container w-100">
+            <img src="./img/Image - Copy.svg" class="w-100 h-75 d-inline-block" alt="" />
+        </div>
+    </section>
+    <section class="container mt-5">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="mt-5">
+                    <div class="card-body fw-bold">
+                        <sub>COWORK IN NUMBERS</sub>
+                        <h1 class="card-title mt-5 fw-bold">Transformative Statistics That Speak Volumes</h1>
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col">
+                                <div class="mt-5">
+                                    <div class="card-body">
+                                        <h1 class="card-title fw-bold">240%</h1>
+                                        <p class="card-text">Community Growth</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="mt-5">
+                                    <div class="card-body">
+                                        <h1 class="card-title fw-bold">99%</h1>
+                                        <p class="card-text">Technology Uptime</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="mt-5">
+                                    <div class="card-body">
+                                        <h1 class="card-title fw-bold">50+</h1>
+                                        <p class="card-text">Happy Members</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="mt-5">
+                                    <div class="card-body">
+                                        <h1 class="card-title fw-bold">100%</h1>
+                                        <p class="card-text">Renewable Energy Sources</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-5">
+                <img src="./img/image-3.svg" class="img-top" alt="...">
+            </div>
+        </div>
+    </section>
+    <section class="container my-5 text-center">
+        <div class="mt-5 fw-bold">
+            <sub>Cowork in Words</sub>
+            <h1 class="card-title mt-5 fw-bold">Hear It from Our Clients</h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+            <div class="col">
+                <div class="box-1 rounded-4 ">
+                    <img src="./img/Avatar Image.svg" class="img-fluid w-25 mx-auto mt-3" alt="...">
+                    <div class="card-body mt-3">
+                        <p class=" mx-5 text-start lh-3">"The 24/7 access and secure facilities have been incredibly
+                            convenient for my team's flexible schedules. We love the coworking space!"</p>
+                        <h5 class="card-title text-center ">Liam Brown</h5>
+                        <p class="card-text text-center my-3">Software Engineer, TechStartup Innovations</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="box-2 rounded-4">
+                    <img src="./img/Avatar Image (1).svg" class="img-fluid w-25 mx-auto mt-3" alt="...">
+                    <div class="card-body mt-3">
+                        <p class="mx-5 text-start lh-3">“The aesthetics of Cowork are inspiring. The attention to detail
+                            in the design creates an atmosphere that sparks creativity. It's a place where ideas flow
+                            effortlessly, and collaboration happens organically.”.</p>
+                        <h5 class="card-title text-center">Michael Rodriguez</h5>
+                        <p class="card-text text-center my-3"> Creative Director, DesignCraft Studio
+                    </div>
+                </div>
+            </div>
+            <div class="col mt-5">
+                <div class="box-3 rounded-4">
+                    <img src="./img/Avatar Image (2).svg" class="img-fluid w-25 mx-auto mt-3" alt="...">
+                    <div class="card-body mt-3">
+                        <p class="mx-5 text-start lh-3">"As a freelance designer, I was getting tired of working from
+                            home or coffee shops. The coworking space has provided me with a productive and professional
+                            environment to focus on my work."</p>
+                        <h5 class="card-title text-center">Michael Thompson</h5>
+                        <p class="card-text text-center my-3">Graphic Designer, DesignCo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mx-5">
+                <div class="box-4 rounded-4">
+                    <img src="./img/Avatar Image (3).svg" class="img-fluid w-25 mx-auto mt-3" alt="...">
+                    <div class="card-body mt-3">
+                        <p class="mx-5 text-start lh-3">"The coworking space has been a wonderful resource for my team.
+                            The open floor plan and dedicated private offices allow us to collaborate and concentrate as
+                            needed."</p>
+                        <h5 class="card-title text-center">David Wilson</h5>
+                        <p class="card-text text-center my-3">Project Manager, SoftwareSolutions LLC</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col mx-5">
+                <div class="box-5 rounded-4">
+                    <img src="./img/Avatar Image (4).svg" class="img-fluid w-25 mx-auto mt-3" alt="...">
+                    <div class="card-body mt-3">
+                        <p class="mx-5 text-start lh-3">"The flexible membership options and amenities like high-speed
+                            internet, printers, and meeting rooms have made this coworking space a perfect fit for my
+                            small business."</p>
+                        <h5 class="card-title text-center">Alex Nguyen</h5>
+                        <p class="card-text text-center my-3">Marketing Consultant, Maverick Marketing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container mt-5">
+        <div class="row ">
+            <div class="col-sm-5 mb-4 mb-sm-0 mt-1">
+                <div class="card border border-0">
+                    <div class="card-body">
+                        <h6 class="card-title text-dark text fw-bold">FREQUENTLY ASKED QUESTIONS</h6>
+                        <h1 class="fw-bold">Your Roadmap to Coworking Clarity</h1>
+                        <p class="card-text">Frequently asked questions ordered by popularity. Remember that if the
+                            visitor has not committed to the call to action, they may still have questions (doubts) that
+                            can be answered.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card border border-0">
+                    <div class="card-body">
+                        <h6 class="card-title fw-bold">How flexible are Cowork's membership plans?</h6>
+                        <p class="card-text">Frequently asked questions ordered by popularity. Remember that if the
+                            visitor has not committed to the call to action, they may still have questions (doubts) that
+                            can be answered.</p>
+                        <hr class="w-25 border border-dark border-2">
+                        <h6 class="card-title fw-bold">What kind of events and networking opportunities does Cowork
+                            provide?</h6>
+                        <hr class="w-25 border border-dark border-2">
+                        <h6 class="card-title fw-bold">Can I tour the Cowork space before committing to a membership?
+                        </h6>
+                        <hr class="w-25 border border-dark border-2">
+                        <h6 class="card-text fw-bold">Is Cowork suitable for remote teams and distributed workforces?
+                        </h6>
+                        <hr class="w-25 border border-dark border-2">
+                        <h6 class="card-text fw-bold">What measures does Cowork take for environmental sustainability?
+                        </h6>
+                        <hr class="w-25 border border-dark border-2">
+                        <h6 class="card-text fw-bold">Still has questions?</h6>
+                        <hr class="w-25 border border-dark border-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container lh-lg text-center mt-5">
+        <div class="text-center mt-5">
+            <h1 class="card-title fw-bold mt-5 text-dark head-line-2">
+                Seize <img src="./img/Rectangle 1 (2).svg" alt="" />
+                The Moment –
+                Join Cowork Today!
+            </h1>
+            <p class="card-text fs-6 fw-light m-auto mt-5 w-50 text-center">
+                Uncover the transformative power of Cowork as echoed by those who've made it their professional haven.
+                This is more than finding a desk; it's discovering a community that fuels your journey to success.
+            </p>
+            <button class="btn btn-outline-secondary rounded-pill fw-bold text-white bg-dark m-5" type="submit">
+                Claim your Spot </button>
+        </div>
+    </section>
+    <section class="container lh-lg mt-5">
+        <div class="text-center w-50 m-auto  mt-5">
+            <sub>Cowork Chronicles </sub>
+            <h1 class="fw-bold mt-5">
+                Insights, Innovation, and
+                <img src="./img/Rectangle 1 (3).svg" alt="" />
+                Inspiration
+            </h1>
+            <p class="text-center fs-6 fw-light m-auto mt-5 w-75">
+                Stay updated on the latest trends in coworking, productivity tips, and success stories that define the
+                Cowork experience.
+            </p>
+        </div>
+        <div class="card-group m-auto gap-4">
+            <div class="card m-auto mt-5 border border-0">
+                <img src="./img/Rectangle Image.svg" class="card-img-top" alt="...">
+                <div class="card-body mt-3">
+                    <div class="d-flex gap-3">
+                        <h5 class="card-title fw-bold fs-5 rounded-2 m-0 p-2 frame-1">Trending</h5>
+                        <p class="card-text text-body-secondary fs-6 fw-light">7 min read</p>
+                    </div>
+                    <h5 class="fw-bold mt-3">Navigating the Future: Trends in Modern Coworking Spaces</h5>
+                    <button class="border border-0 bg-white fs-5 text-body-secondary p-0" type="submit">
+                        Read more
+                    </button>
+                </div>
+            </div>
+            <div class="card m-auto mt-5 border border-0">
+                <img src="./img/Rectangle Image-2.svg" class="card-img-top" alt="...">
+                <div class="card-body mt-3">
+                    <div class="d-flex gap-3">
+                        <h5 class="card-title fw-bold fs-5 rounded-2 m-0 p-2 frame-2">Productivity</h5>
+                        <p class="card-text text-body-secondary fs-6 fw-light">7 min read</p>
+                    </div>
+                    <h5 class="fw-bold mt-3">Mastering Productivity: Tips from Cowork's High Achievers</h5>
+                    <button class="border border-0 bg-white fs-5 text-body-secondary p-0" type="submit">
+                        Read more
+                    </button>
+                </div>
+            </div>
+            <div class="card m-auto mt-5 border border-0">
+                <img src="./img/IRectangle mage-3.svg" class="card-img-top" alt="...">
+                <div class="card-body mt-3">
+                    <div class="d-flex gap-3">
+                        <h5 class="card-title fw-bold fs-5 rounded-2 m-0 p-2 frame-3">Talk</h5>
+                        <p class="card-text text-body-secondary fs-6 fw-light">7 min read</p>
+                    </div>
+                    <h5 class="fw-bold mt-3">Tech Talk: The Backbone of Cowork's Seamless Experience</h5>
+                    <button class="border border-0 bg-white fs-5 text-body-secondary p-0" type="submit">
+                        Read more
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="container my-5 text-center ">
+            <button type="button" class="btn btn-white rounded-pill border border-1 text-body-dark border-black my-5">
+                View All
+            </button>
+        </div>
+    </section>
+    <footer class="p-0 mt-5">
+        <div class="container p-5 bg-dark rounded-5">
+            <div class="row">
+                <div class="col-sm-5">
+                    <div class="bg-dark text-white">
+                        <div class="card-body">
+                            <!-- <h5 class="fw-bold fs-3">Cowork</h5> -->
+                            <img src="./img/Heading.svg" alt="heading">
+                            <p class="card-text mt-3">Join our newsletter to stay up to date on features and releases.
+                            </p>
+                            <div class="input-group">
+                                <input type="text"
+                                    class="form-control border text-white bg-dark border-0 border-bottom rounded-0 input-email"
+                                    placeholder="Enter your email" aria-label="Username">
+                                <button class="input-group-text rounded-5 mt-2" id="basic-addon2">Subscribe</button>
+                            </div>
+                            <p class="card-text mt-4">By subscribing you agree to wih our Privacy Policy and provide
+                                consent to receive updates from our company.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-7">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card text-bg-dark mb-3 border border-0" style="max-width: 11rem;">
+                                <li class="card-header border border-0 fw-bold p-0 list-unstyled">EXPLORE MORE</li>
+                                <ul class="pt-3 list-unstyled">
+                                    <li class="mt-2">Home</li>
+                                    <li class="mt-3">About</li>
+                                    <li class="mt-3">Pricing</li>
+                                    <li class="mt-3">Blog</li>
+                                    <li class="mt-3">Event</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card text-bg-dark mb-3 border border-0"" style=" max-width: 12rem;">
+                                <li class="card-header border border-0 fw-bold p-0 list-unstyled">STAY CONNECTED</li>
+                                <ul class="pt-3 list-unstyled">
+                                    <li class="mt-3">Subscribe</li>
+                                    <li class="mt-3">Member Stories</li>
+                                    <li class="mt-3">Locations</li>
+                                    <li class="mt-3">Write for Us</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="text-bg-dark mb-3 border border-0" style="max-width: 9rem;">
+                                <li class="border border-0 fw-bold p-0 list-unstyled">FOLLOW US</li>
+                                <ul class="pt-3 list-unstyled">
+                                    <li class="mt-3">Facebook</li>
+                                    <li class="mt-3">Instagram</li>
+                                    <li class="mt-3">X</li>
+                                    <li class="mt-3">LinkedIn</li>
+                                    <li class="mt-3">Youtube</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </footer>
+    <div class="container d-flex justify-content-between mt-3 p-0">
+        <p>© 2024 Cowork. All rights reserved.</p>
+        <ul class="d-flex list-unstyled grid gap-4">
+            <li>Privacy Policy</li>
+            <li>Terms of Service</li>
+            <li>Cookies Settings</li>
+        </ul>
+    </div>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
